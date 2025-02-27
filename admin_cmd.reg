@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Associe "cmdadmin" à une commande PowerShell élevée
+[HKEY_CLASSES_ROOT\cmdadmin]
+@="URL:Admin CMD Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\cmdadmin\shell\open\command]
+@="powershell -Command \"Start-Process cmd -Verb RunAs -ArgumentList '/k pushd \\\"%1\\\"'\""
