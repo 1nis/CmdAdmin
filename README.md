@@ -39,7 +39,7 @@
 ## 🚀 Installation
 
 ### Méthode 1 : Script Automatique (Recommandé)
-1. Téléchargez [install_cmdadmin.bat](https://lien-vers-votre-fichier/install_cmdadmin.bat)
+1. Téléchargez [install_cmdadmin.bat](https://github.com/1nis/CmdAdmin/blob/main/cmdadmin.bat)
 2. **Exécutez en Admin** :
 
 Right-click > Exécuter en tant qu'administrateur
